@@ -9,12 +9,14 @@ import android.os.Bundle;
 public class AddNote extends AppCompatActivity {
     Toolbar toolbar;
     RecyclerView recyclerView;
-
+    EditText noteTitle,noteDetails;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_note);
         toolbar = findViewById(R.id.toolbar);
         recyclerView = findViewById(R.id.listOfNotes);
-    }
+        noteDetails = findViewById(R.id.noteDetails);
+        noteTitle = findViewById(R.id.noteTitle);
+}
 }
