@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class AddNote extends AppCompatActivity {
     Toolbar toolbar;
