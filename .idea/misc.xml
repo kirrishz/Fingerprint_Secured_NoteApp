@@ -3,11 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hp/Desktop/Fingerprint_Secured_NoteApp/app/src/main/res/layout/activity_add_note.xml" value="0.22" />
-        <entry key="..\:/Users/hp/Desktop/Fingerprint_Secured_NoteApp/app/src/main/res/menu/save_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/add_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/menu/save_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

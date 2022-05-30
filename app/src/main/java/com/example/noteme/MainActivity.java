@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.add){
-            Toast.makeText(this, "Add New Note", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(this,AddNote.class);
             startActivity(i);
+            Toast.makeText(this, "Add btn ", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }

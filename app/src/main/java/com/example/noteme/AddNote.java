@@ -32,7 +32,7 @@ public class AddNote extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
         recyclerView = findViewById(R.id.listOfNotes);
-        setSupportActionBar(toolbar);
+
 
         getSupportActionBar().setTitle("New Note");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -54,7 +54,7 @@ public class AddNote extends AppCompatActivity {
             }
 
             @Override
-            public void afterTextChanged(Editable s) {
+            public void afterTextChanged(Editable editable) {
 
             }
         });
@@ -78,7 +78,22 @@ public class AddNote extends AppCompatActivity {
         inflater.inflate(R.menu.save_menu,menu);
         return true;
     }
-    @Override
+
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if (item.getItemId()==R.id.delete){
+//            Toast.makeText(this, "delete btn", Toast.LENGTH_SHORT).show();
+//
+//        }
+//        if (item.getItemId()==R.id.save){
+//            Note note =new Note(noteTitle.getText().toString(),noteDetails.getText().toString(),todaysDate,currentTime);
+//            SimpleDatabase db =new SimpleDatabase(this);
+//            db.addNote(note);
+//            Toast.makeText(this, "savebtn", Toast.LENGTH_SHORT).show();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
+        @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.save){
             if(noteTitle.getText().length() != 0){
@@ -102,6 +117,7 @@ public class AddNote extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
+
         super.onBackPressed();
     }
 

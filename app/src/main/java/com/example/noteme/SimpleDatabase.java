@@ -13,8 +13,8 @@ import java.util.List;
 public class SimpleDatabase extends SQLiteOpenHelper {
     // declare require values
     private static final int DATABASE_VERSION = 2;
-    private static final String DATABASE_NAME = "SimpleDB";
-    private static final String TABLE_NAME = "SimpleTable";
+    private static final String DATABASE_NAME = "notedb";
+    private static final String TABLE_NAME = "notestable";
 
     public SimpleDatabase(Context context){
         super(context,DATABASE_NAME,null,DATABASE_VERSION);
