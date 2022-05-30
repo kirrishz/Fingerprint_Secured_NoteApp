@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Note Me</string>
     <string name="Add">Add</string>
+    <string name="sample_note_title">Sample Note TItle</string>
+    <string name="created_7_31_2019">created : 7/31/2019</string>
+    <string name="_08_02">08:02</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
 </resources>

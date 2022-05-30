@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.11280487804878049" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.12135416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/content_detail.xml" value="0.12135416666666667" />
+        <entry key="app/src/main/res/layout/custom_list_view (copy).xml" value="0.1" />
+        <entry key="app/src/main/res/layout/custom_list_view.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_list_view1.xml" value="0.12771739130434784" />
         <entry key="app/src/main/res/menu/add_menu.xml" value="0.22" />
         <entry key="app/src/main/res/menu/save_menu.xml" value="0.1" />
       </map>
@@ -19,7 +24,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.19322916666666667" />
+        <option name="scale" value="0.15806159420289856" />
       </ProjectState>
     </option>
   </component>
