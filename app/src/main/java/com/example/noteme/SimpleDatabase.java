@@ -64,6 +64,7 @@ public class SimpleDatabase extends SQLiteOpenHelper {
 
         // inserting data into db
         long ID = db.insert(TABLE_NAME,null,v);
+        Log.d("inserted", "ID -> "+ID);
         return  ID;
     }
 
